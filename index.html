@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagination Content</title>
+    <link rel="stylesheet" href="pagination.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="header">
+        <p class="eyebrow">Latest updates</p>
+        <h1>Featured Articles</h1>
+      </header>
+
+      <section
+        id="pagination-content"
+        aria-label="Pagination content"
+      ></section>
+
+      <div class="whole" aria-label="Pagination controls">
+        <button id="prev" type="button" onclick="previousPage()"><</button>
+        <div id="pagination-buttons"></div>
+        <button id="next" type="button" onclick="nextPage()">></button>
+      </div>
+    </main>
+
+    <script src="pagination.js"></script>
+  </body>
+</html>
